@@ -11,6 +11,7 @@ fs.readFile('wordbank.txt', 'utf8', function(err, data) {
     game(words);
 })
  
+//game variables
 var test;
 var numGames = 1;
 var wins = 0;
@@ -65,6 +66,7 @@ function game () {
     
 }
 
+//Runs end of game functions
 function endGame () {
     console.log(test.toString());
     if (remain === 1) {
